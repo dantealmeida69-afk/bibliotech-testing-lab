@@ -1,10 +1,4 @@
-"""
-Módulo de empréstimos do BiblioTech.
 
-Este código foi entregue pela equipe de desenvolvimento e está prestes a ir
-para produção. Cabe à equipe de QA validar se ele atende aos requisitos
-descritos em `requisitos.md`.
-"""
 
 LIMITE_EMPRESTIMOS = 3
 
