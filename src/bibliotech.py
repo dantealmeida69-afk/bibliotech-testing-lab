@@ -4,12 +4,7 @@ LIMITE_EMPRESTIMOS = 3
 
 
 def pode_emprestar(usuario_ativo, possui_pendencia, emprestimos_ativos):
-    """
-    RF01 — Um usuário pode realizar um novo empréstimo quando:
-    - está ativo;
-    - não possui pendências;
-    - possui menos de 3 empréstimos ativos.
-    """
+  
     if not usuario_ativo:
         return False
     if possui_pendencia:
@@ -21,9 +16,7 @@ def pode_emprestar(usuario_ativo, possui_pendencia, emprestimos_ativos):
 
 
 def calcular_multa(dias_atraso):
-    """
-    RF02 — Cálculo da multa por atraso.
-    """
+ 
     if dias_atraso <= 0:
         return 0.0
     if dias_atraso <= 7:
@@ -33,9 +26,7 @@ def calcular_multa(dias_atraso):
 
 
 def classificar_atraso(dias_atraso):
-    """
-    RF03 — Classificação textual do atraso.
-    """
+  
     if dias_atraso <= 0:
         return "sem atraso"
     elif dias_atraso <= 7:
