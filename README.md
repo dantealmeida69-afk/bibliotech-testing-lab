@@ -1,15 +1,3 @@
-# bibliotech-testing-lab
-
-Repositório de apoio para a aula prática **"Missão QA: testando o BiblioTech"**.
-
-## Cenário
-
-O time de desenvolvimento do BiblioTech (uma biblioteca digital) entregou uma nova
-versão do módulo de empréstimos. Antes do deploy, o time de QA (vocês!) precisa
-verificar se as regras de negócio estão corretas, usando testes de **caixa preta**
-e **caixa branca**.
-
-## Estrutura do repositório
 
 ```
 bibliotech-testing-lab/
