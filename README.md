@@ -51,21 +51,5 @@ pytest -v
 pytest --cov=src --cov-branch --cov-report=term-missing
 ```
 
-Meta da equipe: **≥ 90% de cobertura de linhas e branches**, sem testes criados
-apenas para "inflar" o número.
 
-## Fluxo esperado
 
-1. Leiam `requisitos.md` (ainda **sem** abrir `src/bibliotech.py`).
-2. Preencham o Mini Plano de Testes (`docs/plano_testes.md`).
-3. Escrevam casos de teste de **caixa preta** (mínimo 4 por função) e documentem
-   pelo menos um em `docs/roteiro_testes.md`.
-4. Implementem os testes em `tests/` e rodem `pytest -v`.
-5. Só então abram `src/bibliotech.py` e façam a análise de **caixa branca**
-   (decisões, condições, caminhos).
-6. Rodem a cobertura e completem os testes que faltam.
-7. Preencham `docs/matriz_rastreabilidade.md`.
-8. Commitem, deem push e abram um Pull Request usando o template.
-9. Aguardem o GitHub Actions rodar e revisem o PR de outra equipe.
-
-Boa missão! 🕵️‍♀️📚
